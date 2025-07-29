@@ -1,4 +1,4 @@
-const clientId = 'YourTwitchClientId';
+const clientId = 'ady5451ksiiqtwr4urpptqoh3i0dxs';
 const alertSound = document.getElementById('alert-sound');
 const requestList = document.getElementById('request-list');
 const chatLog = document.getElementById('chat-log');
