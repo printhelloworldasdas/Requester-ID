@@ -32,7 +32,17 @@
 ---
 
 ### 📂 Estructura del Proyecto
-
+```Requester-ID/
+├── libs/
+│   └── tmi.min.js
+├── LICENSE
+├── README.md
+├── app.js
+├── index.html
+├── requesterchat.html
+├── styles.css
+└── vercel.json
+```
 ---
 
 ### 🖥️ Cómo instalar y ejecutar
