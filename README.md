@@ -11,7 +11,7 @@
 
 ---
 
-# 🇪🇸 Español
+# 🇪🇸 Españoll
 > 🛠️ **Requester ID** es una herramienta creada para **streamers de Geometry Dash** que facilita la gestión y organización de solicitudes de niveles enviadas desde el chat de Twitch.
 
 ---
