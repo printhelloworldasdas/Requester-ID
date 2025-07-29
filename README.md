@@ -51,13 +51,13 @@ Requester-ID/
 <details>
 <summary>🚀 Pasos para hostear con Vercel</summary>
 
-Proximamente...
+## Proximamente...
 </details>
 
 <details>
 <summary>📁 Pasos para hostear con GitHub Pages</summary>
 
-Proximamente...
+## Proximamente...
 </details>
 
 ---
@@ -106,13 +106,13 @@ Requester-ID/
 <details>
 <summary>🚀 Steps to host with Vercel</summary>
 
-Soon...
+## Soon...
 </details>
 
 <details>
 <summary>📁 Steps to host with GitHub Pages</summary>
 
-Soon... 
+## Soon... 
 </details>
 
 ---
