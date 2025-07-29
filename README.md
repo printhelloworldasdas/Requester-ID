@@ -32,7 +32,8 @@
 ---
 
 ### 📂 Estructura del Proyecto
-```Requester-ID/
+```
+Requester-ID/
 ├── libs/
 │   └── tmi.min.js
 ├── LICENSE
