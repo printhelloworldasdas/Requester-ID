@@ -56,7 +56,7 @@ cd Requester-ID
 ---
 
 
-# 🇬🇧 English
+# 🇬🇧/🇺🇸 English
 
 > 🛠️ **Requester ID** is a tool created for **Geometry Dash streamers** that makes it easier to manage and organize level requests sent from the Twitch chat.
 
