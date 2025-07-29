@@ -7,7 +7,7 @@
 
 ## 🌐 Language / Idioma
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸%20Español-8e44ad?style=for-the-badge)](#-español) 
-[![🇬🇧 English](https://img.shields.io/badge/🇬🇧%20English-8e44ad?style=for-the-badge)](#-english)
+[![🇬🇧🇺🇸 English](https://img.shields.io/badge/🇬🇧🇺🇸%20English-8e44ad?style=for-the-badge)](#-english)
 
 ---
 
