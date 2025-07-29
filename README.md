@@ -8,7 +8,7 @@
 
 ## 🌐 Language / Idioma
 
-[![Español](https://img.shields.io/badge/Español-8e44ad?style=for-the-badge)](#-español)  
+[![Español](https://img.shields.io/badge/Español-8e44ad?style=for-the-badge)](#-español) 
 [![English](https://img.shields.io/badge/English-8e44ad?style=for-the-badge)](#-english)
 
 ---
@@ -21,10 +21,10 @@
 
 ### ✨ Características
 
-- 📌 **Captura automática** de IDs desde el chat  
-- 🎮 **Lista organizada** de solicitudes  
-- ⚡ **Copia rápida** con un solo clic  
-- 🔔 **Alertas sonoras** para nuevas solicitudes  
+- 📌 **Captura automática** de IDs desde el chat 
+- 🎮 **Lista organizada** de solicitudes 
+- ⚡ **Copia rápida** con un solo clic 
+- 🔔 **Alertas sonoras** para nuevas solicitudes 
 - 🔑 **Inicio de sesión seguro** con Twitch OAuth2  
 
 ---
@@ -51,6 +51,8 @@ git clone https://github.com/printhelloworldasdas/Requester-ID.git
 cd Requester-ID
 ```
 
+</details>
+
 ---
 
 ## 🇬🇧 English
@@ -61,10 +63,10 @@ cd Requester-ID
 
 ### ✨ Features
 
-- 📌 **Automatic capture** of IDs from the chat  
-- 🎮 **Organized list** of requests  
-- ⚡ **Quick copy** with a single click  
-- 🔔 **Sound alerts** for new requests  
+- 📌 **Automatic capture** of IDs from the chat 
+- 🎮 **Organized list** of requests 
+- ⚡ **Quick copy** with a single click 
+- 🔔 **Sound alerts** for new requests 
 - 🔑 **Secure login** with Twitch OAuth2  
 
 ---
@@ -90,3 +92,5 @@ cd Requester-ID
 git clone https://github.com/printhelloworldasdas/Requester-ID.git
 cd Requester-ID
 ```
+
+</details>
