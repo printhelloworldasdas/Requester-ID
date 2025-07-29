@@ -14,20 +14,23 @@
       <p>Status: <span id="status" class="status">Connecting...</span></p>
     </header>
 
-    <section class="requests">
-      <h3 class="section-title">📋 Pending Level Requests</h3>
-      <ul id="request-list" class="request-list"></ul>
-      <div class="buttons">
-        <button id="next-btn" class="action-btn">✅ Next ID</button>
-        <button id="clear-btn" class="action-btn danger">🧹 Clear All</button>
-      </div>
-    </section>
+    <div class="content-wrapper">
+      <section class="chat-section">
+        <h3 class="section-title">💬 Chat Messages</h3>
+        <ul id="chat-log" class="chat-log"></ul>
+      </section>
 
-    <section class="chat-section">
-      <h3 class="section-title">💬 Chat Messages</h3>
-      <ul id="chat-log" class="chat-log"></ul>
-    </section>
+      <section class="requests">
+        <div class="buttons">
+          <button id="next-btn" class="action-btn">✅ Next ID</button>
+          <button id="clear-btn" class="action-btn danger">🧹 Clear All</button>
+        </div>
+        <h3 class="section-title">📋 Pending Level Requests</h3>
+        <ul id="request-list" class="request-list"></ul>
+      </section>
+    </div>
 
+    <div class="version">v1.0</div>
     <audio id="alert-sound" src="https://notificationsounds.com/notification-sounds/light-559/download/mp3" preload="auto"></audio>
   </main>
 
