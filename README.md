@@ -43,6 +43,7 @@
 ├── styles.css
 └── vercel.json
 ```
+
 ---
 
 ### 🖥️ Cómo instalar y ejecutar
@@ -82,6 +83,18 @@ Creado con 💜 por Mr.Penguin_Official/printhelloworldasdas
 ---
 
 ### 📂 Project Structure
+```
+Requester-ID/
+├── libs/
+│   └── tmi.min.js
+├── LICENSE
+├── README.md
+├── app.js
+├── index.html
+├── requesterchat.html
+├── styles.css
+└── vercel.json
+```
 
 ---
 
