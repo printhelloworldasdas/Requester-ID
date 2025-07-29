@@ -6,8 +6,8 @@
 ---
 
 ## 🌐 Language / Idioma
-[![Español](https://img.shields.io/badge/Español-8e44ad?style=for-the-badge)](#-español) 
-[![English](https://img.shields.io/badge/English-8e44ad?style=for-the-badge)](#-english)
+[![🇪🇸 Español](https://img.shields.io/badge/🇪🇸%20Español-8e44ad?style=for-the-badge)](#-español) 
+[![🇬🇧 English](https://img.shields.io/badge/🇬🇧%20English-8e44ad?style=for-the-badge)](#-english)
 
 ---
 
@@ -87,4 +87,4 @@ cd Requester-ID
 
 ---
 
-Created whit 💜 by Mr.Penguin_Official/printhelloworldasdas
+Created with 💜 by Mr.Penguin_Official/printhelloworldasdas
