@@ -47,9 +47,18 @@ Requester-ID/
 
 ---
 
-### 🖥️ Cómo instalar y ejecutar
+### 🖥️ Cómo hostear la web!
 <details>
-<summary>📥 Clonar el repositorio</summary>
+<summary>🚀 Pasos para hostear con Vercel</summary>
+
+```bash
+git clone https://github.com/printhelloworldasdas/Requester-ID.git
+cd Requester-ID
+```
+</details>
+
+<details>
+<summary>📁 Pasos para hostear con GitHub Pages</summary>
 
 ```bash
 git clone https://github.com/printhelloworldasdas/Requester-ID.git
