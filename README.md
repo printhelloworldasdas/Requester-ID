@@ -31,9 +31,11 @@
 
 ---
 
-## 🖥️ Instalación y Ejecución
+## 🖥️ Cómo instalar y ejecutar
 
-### 1️⃣ Clonar el repositorio
+<details>
+<summary>📥 Clonar el repositorio</summary>
+
 ```bash
 git clone https://github.com/printhelloworldasdas/Requester-ID.git
 cd Requester-ID
