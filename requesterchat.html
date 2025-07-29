@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Requester Chat</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="user-info center">
+      <img id="avatar" src="" alt="Avatar" class="user-avatar">
+      <h2>Welcome, <span id="username" class="username">User</span></h2>
+      <p>Status: <span id="status" class="status">Connecting...</span></p>
+    </header>
+
+    <section class="requests">
+      <h3 class="section-title">📋 Pending Level Requests</h3>
+      <ul id="request-list" class="request-list"></ul>
+      <div class="buttons">
+        <button id="next-btn" class="action-btn">✅ Next ID</button>
+        <button id="clear-btn" class="action-btn danger">🧹 Clear All</button>
+      </div>
+    </section>
+
+    <section class="chat-section">
+      <h3 class="section-title">💬 Chat Messages</h3>
+      <ul id="chat-log" class="chat-log"></ul>
+    </section>
+
+    <audio id="alert-sound" src="https://notificationsounds.com/notification-sounds/light-559/download/mp3" preload="auto"></audio>
+  </main>
+
+  <script src="libs/tmi.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
