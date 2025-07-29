@@ -47,7 +47,7 @@ cd Requester-ID
 
 ---
 
-Creado con ❤ por Mr.Penguin_Official/printhelloworldasdas
+Creado con 💜 por Mr.Penguin_Official/printhelloworldasdas
 
 ---
 
@@ -87,4 +87,4 @@ cd Requester-ID
 
 ---
 
-Created whit ❤ by Mr.Penguin_Official/printhelloworldasdas
+Created whit 💜 by Mr.Penguin_Official/printhelloworldasdas
