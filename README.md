@@ -51,19 +51,13 @@ Requester-ID/
 <details>
 <summary>🚀 Pasos para hostear con Vercel</summary>
 
-```bash
-git clone https://github.com/printhelloworldasdas/Requester-ID.git
-cd Requester-ID
-```
+Proximamente...
 </details>
 
 <details>
 <summary>📁 Pasos para hostear con GitHub Pages</summary>
 
-```bash
-git clone https://github.com/printhelloworldasdas/Requester-ID.git
-cd Requester-ID
-```
+Proximamente...
 </details>
 
 ---
@@ -108,14 +102,17 @@ Requester-ID/
 
 ---
 
-### 🖥️ How to install and run
+### 🖥️ How to host the website!
 <details>
-<summary>📥 Clone the repository</summary>
+<summary>🚀 Steps to host with Vercel</summary>
 
-```bash
-git clone https://github.com/printhelloworldasdas/Requester-ID.git
-cd Requester-ID
-```
+Soon...
+</details>
+
+<details>
+<summary>📁 Steps to host with GitHub Pages</summary>
+
+Soon... 
 </details>
 
 ---
