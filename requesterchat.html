@@ -5,13 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Requester Chat</title>
   <link rel="stylesheet" href="styles.css" />
+  <style>
+    .user-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .user-details {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .header-buttons {
+      margin-left: auto;
+      display: flex;
+      gap: 10px;
+    }
+  </style>
 </head>
 <body>
   <main class="container">
     <header class="user-info center">
-      <img id="avatar" src="" alt="Avatar" class="user-avatar">
-      <h2>Welcome, <span id="username" class="username">User</span></h2>
-      <p>Status: <span id="status" class="status">Connecting...</span></p>
+      <div class="user-details">
+        <img id="avatar" src="" alt="Avatar" class="user-avatar">
+        <div>
+          <h2>Welcome, <span id="username" class="username">User</span></h2>
+          <p>Status: <span id="status" class="status">Connecting...</span></p>
+        </div>
+      </div>
+      <div class="header-buttons">
+        <button id="next-btn" class="action-btn">✅ Next ID</button>
+        <button id="clear-btn" class="action-btn danger">🧹 Clear All</button>
+      </div>
     </header>
 
     <div class="content-wrapper">
@@ -21,10 +48,6 @@
       </section>
 
       <section class="requests">
-        <div class="buttons">
-          <button id="next-btn" class="action-btn">✅ Next ID</button>
-          <button id="clear-btn" class="action-btn danger">🧹 Clear All</button>
-        </div>
         <h3 class="section-title">📋 Pending Level Requests</h3>
         <ul id="request-list" class="request-list"></ul>
       </section>
