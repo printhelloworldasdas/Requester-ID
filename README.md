@@ -26,3 +26,14 @@
 ---
 
 ## 📂 Estructura del Proyecto
+
+---
+
+## 🖥️ Cómo instalar y ejecutar
+
+<details>
+<summary>📥 Clonar el repositorio</summary>
+
+```bash
+git clone https://github.com/printhelloworldasdas/Requester-ID.git
+cd Requester-ID
