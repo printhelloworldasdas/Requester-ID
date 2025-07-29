@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Requester ID</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="container center">
+    <div class="logo-container">
+      <h1><span class="welcome-text">Welcome to</span> <span class="highlight">Requester ID</span></h1>
+    </div>
+    
+    <section class="description-box">
+      <h2>🌟 What is Requester ID?</h2>
+      <p>A powerful tool for Geometry Dash streamers that automatically:</p>
+      <ul class="feature-list">
+        <li>📌 Captures level IDs from chat</li>
+        <li>🎮 Displays them in organized list</li>
+        <li>⚡️ Quick copy with one tap</li>
+        <li>🔔 Sound alerts for new requests</li>
+      </ul>
+    </section>
+
+    <p class="subtitle">Login with Twitch to start managing level requests!</p>
+    
+    <button id="login-btn" class="twitch-btn">
+      <svg viewBox="0 0 24 24" width="24" height="24" class="twitch-icon">
+        <path fill="currentColor" d="M11.64 5.93h1.43v4.28h-1.43m3.93-4.28H17v4.28h-1.43M7 2L3.43 5.57v12.86h4.28V22l3.58-3.57h2.85L20.57 12V2m-1.43 9.29l-2.85 2.85h-2.86l-2.5 2.5v-2.5H7.71V3.43h11.43Z"/>
+      </svg>
+      Login with Twitch
+    </button>
+
+    <footer class="footer-info">
+      <p>Created whit 💜 by <span class="creator">Mr.Penguin_Official</span></p>
+      <div class="footer-links">
+        <a href="https://github.com/printhelloworldasdas/Requester-ID" target="_blank" class="github-link">
+          <svg viewBox="0 0 24 24" width="20" height="20" class="github-icon">
+            <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+          GitHub
+        </a>
+        <p class="report-text">Found a bug? <a href="https://github.com/printhelloworldasdas/Requester-ID/issues" target="_blank" class="report-link">Create Issue</a></p>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    const clientId = 'YourTwitchClientId';
+    const redirectUri = window.location.origin + '/requester';
+    const scopes = 'user:read:email chat:read';
+
+    document.getElementById('login-btn').addEventListener('click', () => {
+      const authUrl = `https://id.twitch.tv/oauth2/authorize?client_id=${clientId}&redirect_uri=${encodeURIComponent(redirectUri)}&response_type=token&scope=${encodeURIComponent(scopes)}`;
+      window.location.href = authUrl;
+    });
+
+    // Optimización para móvil - evitar zoom en inputs
+    document.addEventListener('touchstart', function(e) {
+      if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || e.target.tagName === 'SELECT') {
+        document.documentElement.style.zoom = '100%';
+      }
+    }, false);
+  </script>
+</body>
+</html>
