@@ -5,29 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Requester Chat</title>
   <link rel="stylesheet" href="styles.css" />
-  <style>
-    .user-info {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-    .user-details {
-      display: flex;
-      align-items: center;
-      gap: 15px;
-    }
-    .header-buttons {
-      margin-left: auto;
-      display: flex;
-      gap: 10px;
-    }
-  </style>
 </head>
 <body>
   <main class="container">
-    <header class="user-info center">
+    <header class="user-info">
       <div class="user-details">
         <img id="avatar" src="" alt="Avatar" class="user-avatar">
         <div>
@@ -54,7 +35,7 @@
     </div>
 
     <div class="version">v1.0</div>
-    <audio id="alert-sound" src="https://notificationsounds.com/notification-sounds/light-559/download/mp3" preload="auto"></audio>
+    <audio id="alert-sound" src="assets/alert.mp3" preload="auto"></audio>
   </main>
 
   <script src="libs/tmi.min.js"></script>
