@@ -4,12 +4,14 @@ const requestList = document.getElementById('request-list');
 const chatLog = document.getElementById('chat-log');
 const nextBtn = document.getElementById('next-btn');
 const clearBtn = document.getElementById('clear-btn');
+const copyBtn = document.getElementById('copy-btn');
 const usernameSpan = document.getElementById('username');
 const avatarImg = document.getElementById('avatar');
 const statusSpan = document.getElementById('status');
 
 let requests = [];
 let currentIndex = 0;
+let lastUsedIndex = 0;
 let client = null;
 
 // Extraer token de la URL hash (#access_token=...)
@@ -78,6 +80,7 @@ function addRequest(levelId, user) {
   if (requests.length === 1) {
     copyRequest(newRequest);
     newRequest.used = true;
+    lastUsedIndex = 0;
     renderRequests();
   }
 }
@@ -186,6 +189,7 @@ nextBtn.onclick = () => {
   const currentRequest = requests[currentIndex];
   copyRequest(currentRequest);
   requests[currentIndex].used = true;
+  lastUsedIndex = currentIndex; // Guardamos el índice real usado
   currentIndex = (currentIndex + 1) % requests.length;
   renderRequests();
 };
@@ -195,8 +199,20 @@ clearBtn.onclick = () => {
   if (confirm('Are you sure you want to clear all requests?')) {
     requests = [];
     currentIndex = 0;
+    lastUsedIndex = 0;
     renderRequests();
   }
+};
+
+// Botón "Copy ID"
+copyBtn.onclick = () => {
+  if (requests.length === 0) {
+    alert('No requests to copy.');
+    return;
+  }
+
+  const requestToCopy = requests[lastUsedIndex];
+  copyRequest(requestToCopy);
 };
 
 // Inicio: fetch user info y conectar chat
