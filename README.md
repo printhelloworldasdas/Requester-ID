@@ -34,6 +34,8 @@
 ### 📂 Estructura del Proyecto
 ```
 Requester-ID/
+├──assets/
+│   └── Order-up-bell-sound-effect.mp3
 ├── libs/
 │   └── tmi.min.js
 ├── LICENSE
@@ -89,6 +91,8 @@ Creado con 💜 por Mr.Penguin_Official/printhelloworldasdas
 ### 📂 Project Structure
 ```
 Requester-ID/
+├──assets/
+│   └── Order-up-bell-sound-effect.mp3
 ├── libs/
 │   └── tmi.min.js
 ├── LICENSE
