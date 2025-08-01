@@ -55,11 +55,7 @@ Requester-ID/
 
 1. **Fork** del repositorio.  
    <br>
-   <a href="https://github.com/printhelloworldasdas/Requester-ID/fork" target="_blank"
-      style="padding:10px 16px; background:linear-gradient(135deg,#8e44ad,#9b59b6); color:white; text-decoration:none; border-radius:12px; font-weight:600; display:inline-flex; align-items:center; gap:6px; box-shadow:0 8px 24px rgba(0,0,0,0.1);">
-      🍴 Hacer Fork
-   </a>
-
+   [![🍴 Hacer Fork](https://img.shields.io/badge/🍴%20Hacer%20Fork-grey?style=for-the-badge&logo=github&logoColor=white&color=2c2c2c)](https://github.com/printhelloworldasdas/Requester-ID/fork)
 2. Ve a **[Vercel](https://vercel.app)**, inicia sesión y selecciona el repositorio que has creado.  
 3. Copia la URL del deploy y **añade al final** `/requester` para que funcione.  
    - Ejemplo: `https://tu-usuario.vercel.app/requester`  
@@ -133,11 +129,7 @@ Requester-ID/
 
 1. **Fork** the repository.  
    <br>
-   <a href="https://github.com/printhelloworldasdas/Requester-ID/fork" target="_blank"
-      style="padding:10px 16px; background:linear-gradient(135deg,#8e44ad,#9b59b6); color:white; text-decoration:none; border-radius:12px; font-weight:600; display:inline-flex; align-items:center; gap:6px; box-shadow:0 8px 24px rgba(0,0,0,0.1);">
-      🍴 Fork this repo
-   </a>
-
+   [![🍴 Fork this repo](https://img.shields.io/badge/🍴%20Fork%20this%20repo-grey?style=for-the-badge&logo=github&logoColor=white&color=2c2c2c)](https://github.com/printhelloworldasdas/Requester-ID/fork)
 2. Go to **[Vercel](https://vercel.app)**, log in, and select the repository you forked.  
 3. Copy the deployment URL and **append** `/requester` to the end so it works.  
    - Example: `https://your-username.vercel.app/requester`  
