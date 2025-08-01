@@ -53,10 +53,10 @@ Requester-ID/
 
 <details><summary>🚀 Pasos para hostear con Vercel</summary>
 
-1. **Fork** del repositorio.  
+1. Haz un **Fork** del repositorio.  
    <br>
    [![🍴 Hacer Fork](https://img.shields.io/badge/🍴%20Hacer%20Fork-grey?style=for-the-badge&logo=github&logoColor=white&color=2c2c2c)](https://github.com/printhelloworldasdas/Requester-ID/fork)
-2. Ve a **[Vercel](https://vercel.app)**, inicia sesión y selecciona el repositorio que has creado.  
+2. Ve a **[Vercel](https://vercel.app)**, inicia sesión con **github** y selecciona el repositorio que has creado.  
 3. Copia la URL del deploy y **añade al final** `/requester` para que funcione.  
    - Ejemplo: `https://tu-usuario.vercel.app/requester`  
 4. Ve a **[Twitch Apps](https://dev.twitch.tv/console/apps)** y crea una nueva aplicación:  
