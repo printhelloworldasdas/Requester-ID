@@ -58,7 +58,7 @@ Requester-ID/
 
 ## 🖥️ Cómo hostear la web
 
-### 🚀 Pasos para hostear con Vercel
+<details><summary>🚀 Pasos para hostear con Vercel</summary>
 
 1. Haz un **Fork** del repositorio.
    
@@ -87,9 +87,13 @@ Requester-ID/
 
 8. Ya está listo para usar. 🎉
 
-### 📁 Pasos para hostear con GitHub Pages
+</details>
+
+<details><summary>📁 Pasos para hostear con GitHub Pages</summary>
 
 Proximamente...
+
+</details>
 
 ---
 
@@ -142,7 +146,7 @@ Requester-ID/
 
 ## 🖥️ How to host the web
 
-### 🚀 Steps to host with Vercel
+<details><summary>🚀 Steps to host with Vercel</summary>
 
 1. Make a **Fork** of the repository.
    
@@ -171,9 +175,13 @@ Requester-ID/
 
 8. It's ready to use. 🎉
 
-### 📁 Steps to host with GitHub Pages
+</details>
+
+<details><summary>📁 Steps to host with GitHub Pages</summary>
 
 Coming soon...
+
+</details>
 
 ---
 
