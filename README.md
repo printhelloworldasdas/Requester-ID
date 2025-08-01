@@ -49,16 +49,37 @@ Requester-ID/
 
 ---
 
-### 🖥️ Cómo hostear la web!
-<details>
-<summary>🚀 Pasos para hostear con Vercel</summary>
+## 🖥️ Cómo hostear la web!
 
-## Proximamente...
+<details><summary>🚀 Pasos para hostear con Vercel</summary>
+
+1. **Fork** del repositorio.  
+   <br>
+   <a href="https://github.com/printhelloworldasdas/Requester-ID/fork" target="_blank"
+      style="padding:10px 16px; background:linear-gradient(135deg,#8e44ad,#9b59b6); color:white; text-decoration:none; border-radius:12px; font-weight:600; display:inline-flex; align-items:center; gap:6px; box-shadow:0 8px 24px rgba(0,0,0,0.1);">
+      🍴 Hacer Fork
+   </a>
+
+2. Ve a **[Vercel](https://vercel.app)**, inicia sesión y selecciona el repositorio que has creado.  
+3. Copia la URL del deploy y **añade al final** `/requester` para que funcione.  
+   - Ejemplo: `https://tu-usuario.vercel.app/requester`  
+4. Ve a **[Twitch Apps](https://dev.twitch.tv/console/apps)** y crea una nueva aplicación:  
+   - Ponle el nombre que quieras.  
+   - En **URL de redireccionamiento de OAuth** pega la URL con `/requester`.  
+   - En **Categoría** elige **Browser Extension**.  
+   - En **Tipo de cliente** elige **Público**.  
+   - Pulsa **Crear**.  
+5. Pulsa **Administrar** en la app creada y copia el **ID de cliente**.  
+6. En tu fork, abre `index.html` y `app.js`:  
+   - Busca `YourTwitchClientId` en ambos archivos.  
+   - Reemplázalo por el ID de cliente que copiaste.  
+   - Guarda y haz push.  
+7. Espera a que Vercel actualice el deploy automáticamente.  
+8. Ya está listo para usar. 🎉
+
 </details>
 
-<details>
-<summary>📁 Pasos para hostear con GitHub Pages</summary>
-
+<details><summary>📁 Pasos para hostear con GitHub Pages</summary>
 ## Proximamente...
 </details>
 
@@ -106,17 +127,38 @@ Requester-ID/
 
 ---
 
-### 🖥️ How to host the website!
-<details>
-<summary>🚀 Steps to host with Vercel</summary>
+## 🖥️ How to host the website!
 
-## Soon...
+<details><summary>🚀 Steps to host with Vercel</summary>
+
+1. **Fork** the repository.  
+   <br>
+   <a href="https://github.com/printhelloworldasdas/Requester-ID/fork" target="_blank"
+      style="padding:10px 16px; background:linear-gradient(135deg,#8e44ad,#9b59b6); color:white; text-decoration:none; border-radius:12px; font-weight:600; display:inline-flex; align-items:center; gap:6px; box-shadow:0 8px 24px rgba(0,0,0,0.1);">
+      🍴 Fork this repo
+   </a>
+
+2. Go to **[Vercel](https://vercel.app)**, log in, and select the repository you forked.  
+3. Copy the deployment URL and **append** `/requester` to the end so it works.  
+   - Example: `https://your-username.vercel.app/requester`  
+4. Go to **[Twitch Apps](https://dev.twitch.tv/console/apps)** and create a new application:  
+   - Give it any name.  
+   - In **OAuth Redirect URL** paste the URL with `/requester`.  
+   - For **Category** choose **Browser Extension**.  
+   - For **Client Type** choose **Public**.  
+   - Click **Create**.  
+5. Click **Manage** on the app you created and copy the **Client ID**.  
+6. In your fork, open `index.html` and `app.js`:  
+   - Find `YourTwitchClientId` in both files.  
+   - Replace it with the copied Client ID.  
+   - Save and push.  
+7. Wait for Vercel to auto-update the deploy.  
+8. All set, ready to use! 🎉
+
 </details>
 
-<details>
-<summary>📁 Steps to host with GitHub Pages</summary>
-
-## Soon... 
+<details><summary>📁 Steps to host with GitHub Pages</summary>
+## Soon...
 </details>
 
 ---
