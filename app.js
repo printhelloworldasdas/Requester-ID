@@ -70,6 +70,13 @@ function addRequest(levelId, user) {
   const newRequest = { id: levelId, user, used: false };
   requests.push(newRequest);
 
+  // Reiniciar sonido si está sonando y reproducir de nuevo
+  try {
+    alertSound.pause();
+    alertSound.currentTime = 0;
+  } catch (e) {
+    // fallbacks silenciosos si algo falla
+  }
   alertSound.play().catch(err => {
     console.warn('Could not play alert sound:', err);
   });
